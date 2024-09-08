@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-image: url('fondo2.jpeg');
+    background-size:cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    margin: 0; /* Elimina márgenes del  body */
+    font-family: Arial, sans-serif;
+    color: white;
+    
+}
+
+.formulario{
+    text-align: center;
+    width: 600px;
+   margin: 50px auto;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+h1 {
+    color:#333;
+    font-size: 40px;
+    font-style: italic;
+}
+
+form {
+    margin: 50px;
+}
+
+label {
+    font-size: 20px;
+    width: 300px;
+    color: white;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #333; 
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
